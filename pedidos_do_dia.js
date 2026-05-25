@@ -156,7 +156,7 @@ function renderizarTabela(pedidosFiltrados) {
 function prepararEdicao(pedidoEncoded) {
     const pedido = JSON.parse(decodeURIComponent(pedidoEncoded));
     localStorage.setItem('pedidoEmEdicao', JSON.stringify(pedido));
-    window.location.href = 'novo_pedido.html';
+    window.location.href = 'index.html.html';
 }
 
 function cancelarPedido(linha) {
